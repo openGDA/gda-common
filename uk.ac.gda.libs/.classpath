@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="com.sun.jna-3.2.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.sun.jna.platform-3.2.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.org.aspectj.runtime-1.6.8.RELEASE.jar" sourcepath="com.springsource.org.aspectj.runtime-sources-1.6.8.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" sourcepath="com.springsource.org.aspectj.weaver-sources-1.6.8.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.javax.mail-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.org.hamcrest.core-1.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.org.mockito-1.8.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.org.objenesis-1.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.org.apache.derby-10.5.1000001.764942.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.org.apache.commons.beanutils-1.8.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.org.apache.commons.digester-1.8.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.joptsimple-3.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.org.apache.mina.core-2.0.0.M6.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.org.castor-1.2.0.jar" sourcepath="com.springsource.org.castor-sources-1.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.org.exolab.castor.xml-1.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.org.apache.xerces-2.9.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.javax.media.jai.codec-1.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.javax.media.jai.core-1.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.org.apache.commons.lang-2.4.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.org.apache.commons.collections-3.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.org.apache.sshd-0.2.0.jar" sourcepath="com.springsource.org.apache.sshd-sources-0.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.org.mortbay.util-6.1.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.org.mortbay.jetty.server-6.1.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.com.caucho-3.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.org.apache.commons.codec-1.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.net.sf.cglib-2.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.org.apache.bcel-5.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.org.apache.activemq-5.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.org.apache.commons.io-1.4.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.springsource.javax.jms-1.1.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry exported="true" kind="lib" path="Jlibdc1394-media.jar" sourcepath="uk.ac.diamond.gda.libssrc.zip"/>
+	<classpathentry exported="true" kind="lib" path="jmf.jar" sourcepath="uk.ac.diamond.gda.libssrc.zip"/>
+	<classpathentry exported="true" kind="lib" path="ojdbc14-10.2.0.2.0.jar" sourcepath="/com.oracle.jdbc/ojdbc14.jar"/>
+	<classpathentry exported="true" kind="lib" path="toplink-essentials-2b41.jar" sourcepath="uk.ac.diamond.gda.libssrc.zip"/>
+	<classpathentry exported="true" kind="lib" path="toplink-essentials-agent-2b41.jar" sourcepath="uk.ac.diamond.gda.libssrc.zip"/>
+	<classpathentry exported="true" kind="lib" path="junit-addons-1.4.jar" sourcepath="uk.ac.diamond.gda.libssrc.zip"/>
+	<classpathentry exported="true" kind="lib" path="pf-joi-full.jar" sourcepath="uk.ac.diamond.gda.libssrc.zip"/>
+	<classpathentry exported="true" kind="lib" path="jtem-beans.jar" sourcepath="uk.ac.diamond.gda.libssrc.zip"/>
+	<classpathentry exported="true" kind="lib" path="commons-configuration-1.6.jar" sourcepath="commons-configuration-1.6-src.zip"/>
+	<classpathentry exported="true" kind="lib" path="JUnitParams-0.3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

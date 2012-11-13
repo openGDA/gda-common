@@ -1,0 +1,67 @@
+#! /usr/bin/python -tt
+
+import sys
+import os
+from xml.dom import minidom
+
+RED = '\033[91m'
+GREEN = '\033[92m'
+YELLOW = '\033[93m'
+NOCOLOUR = '\033[0m'
+
+def get_element_text_content(e):
+    return ''.join([c.nodeValue for c in e.childNodes])
+
+def get_project_path():
+    pydevproject = minidom.parse(".pydevproject")
+    pydev_project_element = pydevproject.getElementsByTagName("pydev_project")[0]
+    pydev_pathproperty_element = pydev_project_element.getElementsByTagName("pydev_pathproperty")[0]
+    path_elements = pydev_pathproperty_element.getElementsByTagName("path")
+    return [get_element_text_content(e) for e in path_elements]
+
+def get_jars_on_project_path():
+    path = get_project_path()
+    jars = []
+    for item in path:
+        if item.startswith("/uk.ac.gda.libs/") and item.endswith(".jar"):
+            jars.append(item[16:])
+        else:
+            print "%swarning: not sure what to do with '%s' - ignoring%s" % (YELLOW, item, NOCOLOUR)
+    return set(jars)
+
+def search_dir(directory, jars):
+    contents = os.listdir(directory)
+    for item in contents:
+        path = os.path.join(directory, item)
+        if os.path.isdir(path):
+            search_dir(path, jars)
+        elif os.path.isfile(path) and path.endswith(".jar") and not "-sources-" in path:
+            jars.append(path)
+
+def get_jars_in_project():
+    jars = []
+    search_dir(".", jars)
+    jars = [j[2:] for j in jars]
+    return set(jars)
+
+project_path_jars = get_jars_on_project_path()
+print "%d item(s) on project path" % len(project_path_jars)
+
+project_jars = get_jars_in_project()
+print "%d JAR(s) in project" % len(project_jars)
+
+removed = project_path_jars - project_jars
+added = project_jars - project_path_jars
+
+if removed:
+    print "%d JAR(s) removed:" % len(removed)
+    for i in removed:
+        print "    %s%s%s" % (RED, i, NOCOLOUR)
+
+if added:
+    print "%d JAR(s) added:" % len(added)
+    for i in added:
+        print "    %s%s%s" % (GREEN, i, NOCOLOUR)
+
+if not (added or removed):
+    print "No differences."

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse-pydev version="1.0"?>
+
+<pydev_project>
+<pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">jython 2.5</pydev_property>
+<pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">Jython2.5.1</pydev_property>
+
+<pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">
+<path>/uk.ac.gda.libs/JUnitParams-0.3.0.jar</path>
+<path>/uk.ac.gda.libs/Jlibdc1394-media.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.com.caucho-3.2.1.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.javax.activation-1.1.1.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.javax.ejb-3.0.0.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.javax.el-1.0.0.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.javax.jms-1.1.0.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.javax.mail-1.4.1.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.javax.management.j2ee-1.0.1.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.javax.media.jai.codec-1.1.3.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.javax.media.jai.core-1.1.3.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.javax.servlet-2.5.0.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.javax.servlet.jsp-2.1.0.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.javax.transaction-1.1.0.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.javax.xml.rpc-1.1.0.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.javax.xml.soap-1.3.0.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.joptsimple-3.0.0.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.net.sf.cglib-2.2.0.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.apache.activemq-5.2.0.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.apache.bcel-5.2.0.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.apache.commons.beanutils-1.8.0.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.apache.commons.codec-1.3.0.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.apache.commons.collections-3.2.1.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.apache.commons.digester-1.8.1.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.apache.commons.httpclient-3.1.0.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.apache.commons.io-1.4.0.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.apache.commons.jxpath-1.2.0.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.apache.commons.lang-2.4.0.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.apache.derby-10.5.1000001.764942.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.apache.mina.core-2.0.0.M6.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.apache.sshd-0.2.0.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.apache.tools.ant-1.7.1.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.apache.xerces-2.9.1.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.aspectj.runtime-1.6.8.RELEASE.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.castor-1.2.0.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.exolab.castor.xml-1.2.0.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.hamcrest.core-1.1.0.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.jdom-1.1.0.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.mockito-1.8.4.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.mortbay.jetty.server-6.1.9.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.mortbay.util-6.1.9.jar</path>
+<path>/uk.ac.gda.libs/com.springsource.org.objenesis-1.0.0.jar</path>
+<path>/uk.ac.gda.libs/com.sun.jna-3.2.7.jar</path>
+<path>/uk.ac.gda.libs/com.sun.jna.platform-3.2.7.jar</path>
+<path>/uk.ac.gda.libs/commons-configuration-1.6.jar</path>
+<path>/uk.ac.gda.libs/jmf.jar</path>
+<path>/uk.ac.gda.libs/jtem-beans.jar</path>
+<path>/uk.ac.gda.libs/junit-addons-1.4.jar</path>
+<path>/uk.ac.gda.libs/ojdbc14-10.2.0.2.0.jar</path>
+<path>/uk.ac.gda.libs/pf-joi-full.jar</path>
+<path>/uk.ac.gda.libs/toplink-essentials-2b41.jar</path>
+<path>/uk.ac.gda.libs/toplink-essentials-agent-2b41.jar</path>
+</pydev_pathproperty>
+</pydev_project>
