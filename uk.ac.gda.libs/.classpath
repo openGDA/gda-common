@@ -39,7 +39,6 @@
 	<classpathentry exported="true" kind="lib" path="toplink-essentials-agent-2b41.jar" sourcepath="uk.ac.diamond.gda.libssrc.zip"/>
 	<classpathentry exported="true" kind="lib" path="junit-addons-1.4.jar" sourcepath="uk.ac.diamond.gda.libssrc.zip"/>
 	<classpathentry exported="true" kind="lib" path="pf-joi-full.jar" sourcepath="uk.ac.diamond.gda.libssrc.zip"/>
-	<classpathentry exported="true" kind="lib" path="jtem-beans.jar" sourcepath="uk.ac.diamond.gda.libssrc.zip"/>
 	<classpathentry exported="true" kind="lib" path="commons-configuration-1.6.jar" sourcepath="commons-configuration-1.6-src.zip"/>
 	<classpathentry exported="true" kind="lib" path="JUnitParams-0.3.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
