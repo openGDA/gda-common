@@ -43,17 +43,13 @@
 <path>/uk.ac.gda.libs/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar</path>
 <path>/uk.ac.gda.libs/com.springsource.org.castor-1.2.0.jar</path>
 <path>/uk.ac.gda.libs/com.springsource.org.exolab.castor.xml-1.2.0.jar</path>
-<path>/uk.ac.gda.libs/com.springsource.org.hamcrest.core-1.1.0.jar</path>
 <path>/uk.ac.gda.libs/com.springsource.org.jdom-1.1.0.jar</path>
-<path>/uk.ac.gda.libs/com.springsource.org.mockito-1.8.4.jar</path>
 <path>/uk.ac.gda.libs/com.springsource.org.mortbay.jetty.server-6.1.9.jar</path>
 <path>/uk.ac.gda.libs/com.springsource.org.mortbay.util-6.1.9.jar</path>
-<path>/uk.ac.gda.libs/com.springsource.org.objenesis-1.0.0.jar</path>
 <path>/uk.ac.gda.libs/com.sun.jna-3.2.7.jar</path>
 <path>/uk.ac.gda.libs/com.sun.jna.platform-3.2.7.jar</path>
 <path>/uk.ac.gda.libs/commons-configuration-1.6.jar</path>
 <path>/uk.ac.gda.libs/jmf.jar</path>
-<path>/uk.ac.gda.libs/jtem-beans.jar</path>
 <path>/uk.ac.gda.libs/junit-addons-1.4.jar</path>
 <path>/uk.ac.gda.libs/ojdbc14-10.2.0.2.0.jar</path>
 <path>/uk.ac.gda.libs/pf-joi-full.jar</path>

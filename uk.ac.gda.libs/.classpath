@@ -5,9 +5,6 @@
 	<classpathentry exported="true" kind="lib" path="com.springsource.org.aspectj.runtime-1.6.8.RELEASE.jar" sourcepath="com.springsource.org.aspectj.runtime-sources-1.6.8.RELEASE.jar"/>
 	<classpathentry exported="true" kind="lib" path="com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" sourcepath="com.springsource.org.aspectj.weaver-sources-1.6.8.RELEASE.jar"/>
 	<classpathentry exported="true" kind="lib" path="com.springsource.javax.mail-1.4.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="com.springsource.org.hamcrest.core-1.1.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="com.springsource.org.mockito-1.8.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="com.springsource.org.objenesis-1.0.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="com.springsource.org.apache.derby-10.5.1000001.764942.jar"/>
 	<classpathentry exported="true" kind="lib" path="com.springsource.org.apache.commons.beanutils-1.8.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="com.springsource.org.apache.commons.digester-1.8.1.jar"/>
