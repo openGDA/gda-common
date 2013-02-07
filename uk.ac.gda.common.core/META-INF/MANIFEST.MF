@@ -1,9 +1,4 @@
 Manifest-Version: 1.0
-Developer-Note: This plugin should be as vanilla as possible. IObserver should one
- day be replaced with the java.util.Observer. This would mean that
- scisoft and gda are less tightly coupled. Until then this plugin
- is used to define IObserver with as few additional dependences as
- possible.
 Bundle-ManifestVersion: 2
 Bundle-Name: Observable
 Bundle-SymbolicName: uk.ac.gda.common.core
