@@ -8,8 +8,11 @@ Bundle-ManifestVersion: 2
 Bundle-Name: Observable
 Bundle-SymbolicName: uk.ac.gda.common.core
 Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: uk.ac.gda.common.observable.Activator
 Bundle-Vendor: DLS
+Require-Bundle: org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
 Export-Package: gda.configuration.properties,
  gda.observable
 Import-Package: org.apache.commons.configuration;version="1.6.0",
