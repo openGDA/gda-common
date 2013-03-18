@@ -13,8 +13,6 @@
 	<classpathentry exported="true" kind="lib" path="com.springsource.org.castor-1.2.0.jar" sourcepath="com.springsource.org.castor-sources-1.2.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="com.springsource.org.exolab.castor.xml-1.2.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="com.springsource.org.apache.xerces-2.9.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="com.springsource.javax.media.jai.codec-1.1.3.jar"/>
-	<classpathentry exported="true" kind="lib" path="com.springsource.javax.media.jai.core-1.1.3.jar"/>
 	<classpathentry exported="true" kind="lib" path="com.springsource.org.apache.commons.lang-2.4.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="com.springsource.org.apache.commons.collections-3.2.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="com.springsource.org.apache.sshd-0.2.0.jar" sourcepath="com.springsource.org.apache.sshd-sources-0.2.0.jar"/>
