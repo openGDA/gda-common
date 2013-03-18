@@ -15,8 +15,6 @@
 <path>/uk.ac.gda.libs/com.springsource.javax.jms-1.1.0.jar</path>
 <path>/uk.ac.gda.libs/com.springsource.javax.mail-1.4.1.jar</path>
 <path>/uk.ac.gda.libs/com.springsource.javax.management.j2ee-1.0.1.jar</path>
-<path>/uk.ac.gda.libs/com.springsource.javax.media.jai.codec-1.1.3.jar</path>
-<path>/uk.ac.gda.libs/com.springsource.javax.media.jai.core-1.1.3.jar</path>
 <path>/uk.ac.gda.libs/com.springsource.javax.servlet-2.5.0.jar</path>
 <path>/uk.ac.gda.libs/com.springsource.javax.servlet.jsp-2.1.0.jar</path>
 <path>/uk.ac.gda.libs/com.springsource.javax.transaction-1.1.0.jar</path>
