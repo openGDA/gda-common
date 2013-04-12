@@ -3,7 +3,6 @@
 	<name>uk.ac.gda.libs</name>
 	<comment></comment>
 	<projects>
-		<project>thirdparty</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
