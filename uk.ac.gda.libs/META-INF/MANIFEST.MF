@@ -755,3 +755,4 @@ Bundle-ClassPath: Jlibdc1394-media.jar,
  JUnitParams-0.3.0.jar
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-Vendor: Diamond Light Source
+Import-Package: org.apache.commons.logging
