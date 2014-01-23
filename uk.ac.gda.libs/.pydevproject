@@ -27,7 +27,6 @@
 <path>/uk.ac.gda.libs/com.springsource.org.apache.commons.collections-3.2.1.jar</path>
 <path>/uk.ac.gda.libs/com.springsource.org.apache.commons.digester-1.8.1.jar</path>
 <path>/uk.ac.gda.libs/com.springsource.org.apache.commons.httpclient-3.1.0.jar</path>
-<path>/uk.ac.gda.libs/com.springsource.org.apache.commons.lang-2.4.0.jar</path>
 <path>/uk.ac.gda.libs/com.springsource.org.apache.derby-10.5.1000001.764942.jar</path>
 <path>/uk.ac.gda.libs/com.springsource.org.apache.mina.core-2.0.0.M6.jar</path>
 <path>/uk.ac.gda.libs/com.springsource.org.apache.sshd-0.2.0.jar</path>
