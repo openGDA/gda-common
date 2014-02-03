@@ -685,4 +685,4 @@ Bundle-ClassPath: ojdbc6.jar,
  JUnitParams-0.3.0.jar
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-Vendor: Diamond Light Source
-Import-Package: org.apache.commons.logging
+Require-Bundle: com.springsource.slf4j.org.apache.commons.logging;bundle-version="1.5.6"
