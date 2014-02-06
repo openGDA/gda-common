@@ -608,4 +608,4 @@ Bundle-ClassPath: ojdbc6.jar,
  JUnitParams-0.3.0.jar
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-Vendor: Diamond Light Source
-Require-Bundle: jcl.over.slf4j;bundle-version="[1.7.5,1.7.6)"
+Require-Bundle: jcl.over.slf4j;bundle-version="[1.7.6,1.7.7)"
