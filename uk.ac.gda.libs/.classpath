@@ -7,7 +7,6 @@
 	<classpathentry exported="true" kind="lib" path="com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" sourcepath="com.springsource.org.aspectj.weaver-sources-1.6.8.RELEASE.jar"/>
 	<classpathentry exported="true" kind="lib" path="com.springsource.javax.mail-1.4.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="com.springsource.org.apache.derby-10.5.1000001.764942.jar"/>
-	<classpathentry exported="true" kind="lib" path="com.springsource.org.apache.commons.digester-1.8.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="com.springsource.joptsimple-3.0.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="com.springsource.org.castor-1.2.0.jar" sourcepath="com.springsource.org.castor-sources-1.2.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="com.springsource.org.exolab.castor.xml-1.2.0.jar"/>
