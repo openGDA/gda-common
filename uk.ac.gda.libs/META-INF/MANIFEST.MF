@@ -155,6 +155,10 @@ Export-Package: codecLib.mpa,
  net.sf.jlibdc1394.impl.cmu,
  net.sf.jlibdc1394.media,
  net.sf.jlibdc1394.media.protocol.j1394,
+ nvt4j,
+ nvt4j.impl,
+ nvt4j.impl.option,
+ nvt4j.impl.telnet,
  oracle.core.lmx,
  oracle.core.lvf,
  oracle.jdbc,
@@ -585,7 +589,8 @@ Bundle-ClassPath: ojdbc6.jar,
  com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar,
  com.sun.jna-3.2.7.jar,
  com.sun.jna.platform-3.2.7.jar,
- JUnitParams-0.3.0.jar
+ JUnitParams-0.3.0.jar,
+ nvt4j.jar
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-Vendor: Diamond Light Source
 Require-Bundle: jcl.over.slf4j;bundle-version="[1.7.6,1.7.7)"
