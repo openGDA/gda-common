@@ -111,6 +111,7 @@ Export-Package: codecLib.mpa,
  com.sun.media.util.locale,
  com.sun.media.vfw,
  javax.jms;version="1.1.0",
+ javax.management.j2ee.statistics,
  javax.media,
  javax.media.bean.playerbean,
  javax.media.cdm,
@@ -590,7 +591,8 @@ Bundle-ClassPath: ojdbc6.jar,
  com.sun.jna-3.2.7.jar,
  com.sun.jna.platform-3.2.7.jar,
  JUnitParams-0.3.0.jar,
- nvt4j.jar
+ nvt4j.jar,
+ com.springsource.javax.management.j2ee-1.0.1.jar
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-Vendor: Diamond Light Source
 Require-Bundle: jcl.over.slf4j;bundle-version="[1.7.6,1.7.7)"

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry exported="true" kind="lib" path="com.springsource.javax.management.j2ee-1.0.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="nvt4j.jar"/>
 	<classpathentry exported="true" kind="lib" path="ojdbc6.jar"/>
 	<classpathentry exported="true" kind="lib" path="com.sun.jna-3.2.7.jar"/>
