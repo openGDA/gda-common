@@ -595,4 +595,3 @@ Bundle-ClassPath: ojdbc6.jar,
  com.springsource.javax.management.j2ee-1.0.1.jar
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-Vendor: Diamond Light Source
-Require-Bundle: jcl.over.slf4j;bundle-version="[1.7.6,1.7.7)"
