@@ -3,7 +3,6 @@
 <pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">Jython2</pydev_property>
 <pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">jython 2.7</pydev_property>
 <pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">
-<path>/uk.ac.gda.libs/JUnitParams-0.3.0.jar</path>
 <path>/uk.ac.gda.libs/Jlibdc1394-media.jar</path>
 <path>/uk.ac.gda.libs/com.springsource.javax.management.j2ee-1.0.1.jar</path>
 <path>/uk.ac.gda.libs/com.springsource.javax.servlet-2.5.0.jar</path>
