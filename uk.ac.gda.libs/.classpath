@@ -15,8 +15,6 @@
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry exported="true" kind="lib" path="Jlibdc1394-media.jar" sourcepath="uk.ac.diamond.gda.libssrc.zip"/>
 	<classpathentry exported="true" kind="lib" path="jmf.jar" sourcepath="uk.ac.diamond.gda.libssrc.zip"/>
-	<classpathentry exported="true" kind="lib" path="toplink-essentials-2b41.jar" sourcepath="uk.ac.diamond.gda.libssrc.zip"/>
-	<classpathentry exported="true" kind="lib" path="toplink-essentials-agent-2b41.jar" sourcepath="uk.ac.diamond.gda.libssrc.zip"/>
 	<classpathentry exported="true" kind="lib" path="junit-addons-1.4.jar" sourcepath="uk.ac.diamond.gda.libssrc.zip"/>
 	<classpathentry exported="true" kind="lib" path="pf-joi-full.jar" sourcepath="uk.ac.diamond.gda.libssrc.zip"/>
 </classpath>
