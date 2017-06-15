@@ -21,7 +21,5 @@
 <path>/uk.ac.gda.libs/junit-addons-1.4.jar</path>
 <path>/uk.ac.gda.libs/ojdbc6.jar</path>
 <path>/uk.ac.gda.libs/pf-joi-full.jar</path>
-<path>/uk.ac.gda.libs/toplink-essentials-2b41.jar</path>
-<path>/uk.ac.gda.libs/toplink-essentials-agent-2b41.jar</path>
 </pydev_pathproperty>
 </pydev_project>
