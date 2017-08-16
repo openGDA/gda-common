@@ -116,10 +116,6 @@ Export-Package: codecLib.mpa,
  net.sf.cglib.transform,
  net.sf.cglib.transform.impl,
  net.sf.cglib.util,
- nvt4j,
- nvt4j.impl,
- nvt4j.impl.option,
- nvt4j.impl.telnet,
  oracle.core.lmx,
  oracle.core.lvf,
  oracle.jdbc,
@@ -230,8 +226,7 @@ Bundle-ClassPath: ojdbc6.jar,
  com.springsource.org.exolab.castor.xml-1.2.0.jar,
  com.springsource.org.apache.commons.beanutils-1.8.0.jar,
  com.springsource.org.aspectj.runtime-1.6.8.RELEASE.jar,
- com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar,
- nvt4j.jar
+ com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-Vendor: Diamond Light Source
 Require-Bundle: jcl.over.slf4j;bundle-version="[1.7.2,2.0.0)"
