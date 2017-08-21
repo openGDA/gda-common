@@ -10,8 +10,6 @@
 <path>/uk.ac.gda.libs/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar</path>
 <path>/uk.ac.gda.libs/com.springsource.org.castor-1.2.0.jar</path>
 <path>/uk.ac.gda.libs/com.springsource.org.exolab.castor.xml-1.2.0.jar</path>
-<path>/uk.ac.gda.libs/com.sun.jna-3.2.7.jar</path>
-<path>/uk.ac.gda.libs/com.sun.jna.platform-3.2.7.jar</path>
 <path>/uk.ac.gda.libs/jmf.jar</path>
 <path>/uk.ac.gda.libs/junit-addons-1.4.jar</path>
 <path>/uk.ac.gda.libs/ojdbc6.jar</path>
