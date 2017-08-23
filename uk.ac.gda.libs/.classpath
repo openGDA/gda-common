@@ -11,6 +11,5 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry exported="true" kind="lib" path="jmf.jar" sourcepath="uk.ac.diamond.gda.libssrc.zip"/>
-	<classpathentry exported="true" kind="lib" path="junit-addons-1.4.jar" sourcepath="uk.ac.diamond.gda.libssrc.zip"/>
 	<classpathentry exported="true" kind="lib" path="pf-joi-full.jar" sourcepath="uk.ac.diamond.gda.libssrc.zip"/>
 </classpath>
