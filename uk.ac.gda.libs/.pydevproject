@@ -4,7 +4,5 @@
 <pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">jython 2.7</pydev_property>
 <pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">
 <path>/uk.ac.gda.libs/com.springsource.net.sf.cglib-2.2.0.jar</path>
-<path>/uk.ac.gda.libs/com.springsource.org.castor-1.2.0.jar</path>
-<path>/uk.ac.gda.libs/com.springsource.org.exolab.castor.xml-1.2.0.jar</path>
 </pydev_pathproperty>
 </pydev_project>
