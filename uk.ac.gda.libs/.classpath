@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry exported="true" kind="lib" path="ojdbc6.jar"/>
 	<classpathentry exported="true" kind="lib" path="com.springsource.org.castor-1.2.0.jar" sourcepath="com.springsource.org.castor-sources-1.2.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="com.springsource.org.exolab.castor.xml-1.2.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="com.springsource.net.sf.cglib-2.2.0.jar"/>

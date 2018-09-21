@@ -7,6 +7,5 @@
 <path>/uk.ac.gda.libs/com.springsource.org.castor-1.2.0.jar</path>
 <path>/uk.ac.gda.libs/com.springsource.org.exolab.castor.xml-1.2.0.jar</path>
 <path>/uk.ac.gda.libs/jmf.jar</path>
-<path>/uk.ac.gda.libs/ojdbc6.jar</path>
 </pydev_pathproperty>
 </pydev_project>
