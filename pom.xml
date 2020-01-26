@@ -15,8 +15,8 @@
 
 	<modules>
 		<module>uk.ac.gda.common</module>
-		<module>uk.ac.gda.common.test</module>
-		<module>uk.ac.gda.test.helpers</module>
+		<!-- module>uk.ac.gda.common.test</module -->
+		<!-- module>uk.ac.gda.test.helpers</module -->
 	</modules>
 
 
