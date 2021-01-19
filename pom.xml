@@ -16,6 +16,7 @@
 
 	<modules>
 		<module>uk.ac.gda.common</module>
+		<module>uk.ac.gda.common.activemq</module>
 	</modules>
 
 	<profiles>
