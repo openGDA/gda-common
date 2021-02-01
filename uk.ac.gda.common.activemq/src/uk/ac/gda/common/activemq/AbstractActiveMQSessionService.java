@@ -106,7 +106,7 @@ public abstract class AbstractActiveMQSessionService implements ISessionService,
 	private String fetchActiveMQStatus() throws IOException {
 		// Lazily get system property to ensure is set
 		final String brokerUri = System.getProperty(KEY_GETSTATUS_ACTIVE_URI,
-				String.format("http://%s:8161", System.getProperty(GDA_SERVER_HOST)));
+				String.format("http://%s:8161", System.getProperty(GDA_SERVER_HOST_DEFAULT)));
 		final URL url = new URL(brokerUri);
 		URLConnection conn = url.openConnection();
 		try (final BufferedReader reader = new BufferedReader(
