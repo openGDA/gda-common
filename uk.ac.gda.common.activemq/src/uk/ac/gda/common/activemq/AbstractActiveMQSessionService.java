@@ -29,7 +29,7 @@ public abstract class AbstractActiveMQSessionService implements ISessionService,
 	private static final String GDA_SERVER_HOST = "GDA/gda.activemq.broker.uri";
 	private static final String GDA_SERVER_HOST_DEFAULT = "GDA/gda.server.host";
 
-	protected final Logger logger = LoggerFactory.getLogger(getClass());
+	private static final Logger logger = LoggerFactory.getLogger(AbstractActiveMQSessionService.class);
 
 	/*
 	 * Management or control of Connections should be implemented in this method

@@ -23,11 +23,16 @@ import java.util.concurrent.ConcurrentHashMap;
 
 import javax.jms.Session;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * Implementation of {@code ISessionService} which tracks Connections and QueueConnections in a static map, minimising
  * the number of {@code Connection}s which are created.
  */
 public class StaticMapManagedSessionService extends AbstractActiveMQSessionService {
+	
+	private static final Logger logger = LoggerFactory.getLogger(StaticMapManagedSessionService.class);
 
 	/**
 	 * Map of brokerUri to Connections, wrapped to allow callbacks from {@link Session#close()} method from
