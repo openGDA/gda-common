@@ -28,6 +28,7 @@ public abstract class AbstractActiveMQSessionService implements ISessionService,
 
 	private static final String GDA_SERVER_HOST = "GDA/gda.activemq.broker.uri";
 	private static final String GDA_SERVER_HOST_DEFAULT = "GDA/gda.server.host";
+	private static final String CENTRAL_ACTIVEMQ_URL = "http://activemq.diamond.ac.uk";
 
 	private static final Logger logger = LoggerFactory.getLogger(AbstractActiveMQSessionService.class);
 
@@ -103,11 +104,8 @@ public abstract class AbstractActiveMQSessionService implements ISessionService,
 	private static final String KEY_GETSTATUS_ACTIVE_DEFAULT = "activemq.apache.org";
 
 	/** @return raw status response string for parsing */
-	private String fetchActiveMQStatus() throws IOException {
-		// Lazily get system property to ensure is set
-		final String brokerUri = System.getProperty(KEY_GETSTATUS_ACTIVE_URI,
-				String.format("http://%s:8161", System.getProperty(GDA_SERVER_HOST_DEFAULT)));
-		final URL url = new URL(brokerUri);
+	private String fetchActiveMQStatus(String urlString) throws IOException {
+		final URL url = new URL(urlString);
 		URLConnection conn = url.openConnection();
 		try (final BufferedReader reader = new BufferedReader(
 				new InputStreamReader(conn.getInputStream(), StandardCharsets.UTF_8))) {
@@ -115,17 +113,31 @@ public abstract class AbstractActiveMQSessionService implements ISessionService,
 		}
 	}
 
-	/** @return flag for ActiveMQ response indicating whether server is active, moved from MsgBus */
-	@Override
-	public final boolean defaultConnectionActive() {
+	/** @return flag for ActiveMQ response indicating whether server is active */
+	public final boolean isConnectionActive(String url, String service) {
 		boolean response = false;
 		try {
-			String status = fetchActiveMQStatus();
+			String status = fetchActiveMQStatus(url);
 			response = status.contains(System.getProperty(KEY_GETSTATUS_ACTIVE_PROPERTY, KEY_GETSTATUS_ACTIVE_DEFAULT));
 		} catch (IOException e) {
-			logger.error("FAIL to verify ActiveMQ status", e);
+			logger.error("FAIL to verify {} ActiveMQ status", service, e);
 		}
 		return response;
+	}
+
+	/** @return flag for Local ActiveMQ response indicating whether server is active, moved from MsgBus */
+	@Override
+	public final boolean defaultConnectionActive() {
+		// Lazily get system property to ensure is set
+		final String brokerUri = System.getProperty(KEY_GETSTATUS_ACTIVE_URI,
+				String.format("http://%s:8161", System.getProperty(GDA_SERVER_HOST_DEFAULT)));
+		return isConnectionActive(brokerUri, "Local");
+	}
+
+	/** @return flag for Central ActiveMQ response indicating whether server is active */
+	@Override
+	public final boolean centralConnectionActive() {
+		return isConnectionActive(CENTRAL_ACTIVEMQ_URL, "Central");
 	}
 
 }

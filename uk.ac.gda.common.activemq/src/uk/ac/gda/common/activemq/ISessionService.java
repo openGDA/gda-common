@@ -23,4 +23,6 @@ public interface ISessionService {
 
 	public boolean defaultConnectionActive();
 
+	public boolean centralConnectionActive();
+
 }
